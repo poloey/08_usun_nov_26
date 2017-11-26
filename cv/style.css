@@ -1,0 +1,70 @@
+html {
+  background: red;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin: auto;
+  background: white;
+}
+.cb {
+  clear: both;
+}
+.oh {
+  overflow: hidden;
+}
+header {
+  background: #ededed;
+  overflow: hidden; 
+  padding: 20px;
+}
+.header-left {
+  float: left;  
+}
+.header-right {
+  float: right; 
+  padding-right: 25px;
+}
+.header-image {
+  float:  left;
+}
+.name-job {
+  float:  left;
+  margin-left: 20px;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.content {
+  padding: 20px;
+}
+.row {
+  border-bottom: 2px solid red;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.row:last-child {
+  border: none;
+}
+.col-left {
+  float:  left;
+  width: 25%;
+  font-style: italic;
+}
+
+.col-right {
+  float:  left;
+  margin-left: 3%;
+  width: 72%;
+}
+.col-same {
+  width: 33%;
+  float: left;
+}
+
+
+
+
