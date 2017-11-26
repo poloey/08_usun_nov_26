@@ -1,0 +1,61 @@
+html {
+  background: black;
+}
+body {
+  width: 80%;
+  margin: auto;
+  background: #fff;
+}
+
+header {
+  background: #ededed;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.header-left {
+  float: left;
+}
+.img {
+  float: left;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+.name {
+  float: left;
+  margin-left: 20px;
+}
+.header-right {
+  float: right;
+}
+.content {
+  clear: both;
+  padding: 20px;
+}
+
+.row {
+  margin-top: 20px;
+  border-bottom: 2px solid red;
+  overflow: hidden;
+}
+.row:last-child {
+  border: none;
+}
+
+.col-left {
+  float: left;
+  width: 25%;
+  font-style: italic;
+}
+
+.col-right {
+  float: left;
+  margin-left: 3%;
+  width: 72%;
+}
+.same {
+  width: 33%;
+  float: left;
+}
